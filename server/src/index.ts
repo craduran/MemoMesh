@@ -1,5 +1,8 @@
 import * as functions from 'firebase-functions';
+import { initFirebase } from './lib/firebase';
 import app from './app';
+
+initFirebase();
 
 // Local dev server
 if (process.env.NODE_ENV !== 'production') {

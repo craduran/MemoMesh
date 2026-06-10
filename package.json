@@ -8,7 +8,7 @@
     "build:server": "npm --prefix server run build",
     "install:all": "npm --prefix client install && npm --prefix server install"
   },
-  "dependencies": {
-    "firebase": "^12.14.0"
+  "devDependencies": {
+    "tsx": "^4.22.3"
   }
 }
